@@ -3,6 +3,10 @@ A knock off of Notepad++.
 
 You can create and open documents in this normal ass text editor.
 
+v1.1.1 changelog:
+- You can make new lines by pressing return
+- Scroll bar
+
 v1.1.0 changelog:
 - Save button
 - New button changes behavior based on if the file is saved or not
