@@ -1,0 +1,16 @@
+﻿<Window x:Class="Notepad__.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Notepad__"
+        mc:Ignorable="d"
+        Title="Notepad--" Height="250" Width="450" Icon="/notepad--.png" ResizeMode="CanMinimize">
+    <Grid>
+        <TextBox x:Name="TextBox" HorizontalAlignment="Center" Height="177" Text="Type here" TextWrapping="Wrap" VerticalAlignment="Top" Width="430" Margin="0,32,0,0"/>
+        <Button x:Name="SaveButton" Content="Save As" HorizontalAlignment="Left" Height="19" Margin="83,10,0,0" VerticalAlignment="Top" Width="73" Click="SaveClicked"/>
+        <Button x:Name="NewButton" Content="New" HorizontalAlignment="Left" Height="19" Margin="10,10,0,0" VerticalAlignment="Top" Width="73" Click="NewClicked"/>
+        <Button x:Name="OpenButton" Content="Open" HorizontalAlignment="Left" Height="19" Margin="156,10,0,0" VerticalAlignment="Top" Width="74" Click="OpenClicked"/>
+
+    </Grid>
+</Window>
