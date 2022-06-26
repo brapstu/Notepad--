@@ -3,6 +3,8 @@ A knock off of Notepad++.
 
 You can create and open documents in this normal ass text editor.
 
+v1.1.2 changelog:
+- Tab key now works
 v1.1.1 changelog:
 - You can make new lines by pressing return
 - Scroll bar
